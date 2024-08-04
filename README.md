@@ -11,3 +11,18 @@ Bitcell 8T is a basic component of memory circuits used to store one bit or data
 - Read '0': the reading operation is initiated by pre-loading the RBL (Read bit line) into the VDD. RWL (Read word line) controls the M5 transistor ON. If the value stored at Q is '0' then the M6 transistor will be ON and the RBL (Read bit line) is grounded directly through the M5&M6 transistor discharges. This means that the value stored at Q in SRAM is zero
 - Read '1': If the value stored at Q is '1', the M6 transistor will be OFF and there is no discharge line for the RBL, and the value in the RBL is VDD indicating that the value stored at Q is '1'
 ## Calculation Parameters
+### Bitcell Size
+The size of the bitcell is determined by the size of the transistors in the circuit
+### Access time
+Access time is the time it takes to read or write data to the bitcell. The access time depends on the speed of the transistors and the voltage conditions
+Formula: $t_{acc}=t_{read}=t_{write}=t_{BL}+t_{Mux}+t_{SA}+t_{DQ}$
+- $t_{BL}$: time to get data into/out of the access line bus (Bitline)
+- $t_{Mux}$: time to choose the correct access path (Multiplexer)
+- $t_{SA}$: the time to activate and read/write the status of the bitcell (Sense Amplifier)
+- $t_{DQ}$: the time to put data in/out of the data bus (Data Output)
+### Power Comsumption
+The power consumption of the design consists of static power and dynamic power components. In particular, dynamic power ($P_{dynamic}) is the main component that affects the total power consumption of the design in the operating state
+Formula: $P_{dynamic} = C * VDD^2 * f$
+- $C$: load capacitance
+- $VDD^2$: supply voltage
+- $f$: operating frequency
