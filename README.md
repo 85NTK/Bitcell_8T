@@ -48,4 +48,4 @@ The Signal-to-Noise Margin (SNM) measures the distance between the read voltage 
 ![Bitcell_8T_CustomCompiler](/FLOWCHART/Bitcell_8T_CustomCompiler.png)
 ## Development direction
 Design 8T SRAM using charge sharing technique
-![ChargeSharingTechnique](/FLOWCHART/Bitcell_ChargeSharingTechnique.png)
+![Bitcell_8T_ChargeSharingTechnique](/FLOWCHART/Bitcell_8T_ChargeSharingTechnique.png)
