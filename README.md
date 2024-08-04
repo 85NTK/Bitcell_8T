@@ -30,8 +30,8 @@ The storage capacity is determined by the number of bitcells present in the SRAM
 The reliability of the 8T SRAM bitcell is determined by the stability of the transistors and environmental conditions
 ### Chip area
 Layout area : $S = S_{cell} * N_{cell}$
--$S_{cell}$: area of an 8T SRAM bitcell
--$N_{cell}$: number of bitcells in memory
+- $S_{cell}$: area of an 8T SRAM bitcell
+- $N_{cell}$: number of bitcells in memory
 ### Operating speed
 The operating speed of the 8T SRAM bitcell depends on the speed of the transistors and the voltage conditions
 ### Read Current
