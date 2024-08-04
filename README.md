@@ -4,7 +4,7 @@ Analysis And Design Bitcell 8t Using 130nm Technology
 Bitcell 8T is a basic component of memory circuits used to store one bit or data (0 or 1)
 ## Structure
 Bitcell 8T is a type of data storage circuit (SRAM), consist of 8 transistor with 2 PMOS transistor and 6 NMOS transistor, connected together to store one bit or data
-![Bitcell_8T_cell](/FLOWCHART/Bitcell_8T_cell.png)
+![Bitcell_8T](/FLOWCHART/Bitcell_8T.png)
 ## Operating
 - Write '0': to write '0', BL (Bit line) must provide 0 volts and VDD to BLB (Bit line bar). And WWL (write word line) is confirmed to make both the M3 and M4 transistors ON. Therefore, the value in the bitstream is stored at Q and '0' is stored at Q
 - Write '1':when writing '1' BL (Bit line) must provide a VDD value and BLB (Bit line bar) is provided with a value of 0 volts. When WWL (write word line) is enabled for write operations, the values in the bitlines stored at the corresponding nodes at Q will have a logic value of '1' and logic '0' at Qbar
