@@ -1,5 +1,7 @@
 # Bitcell_8T
 Analysis And Design Bitcell 8t Using 130nm Technology
+---
+***
 ## Definition
 Bitcell 8T is a basic component of memory circuits used to store one bit or data (0 or 1)
 ## Structure
@@ -49,3 +51,5 @@ The Signal-to-Noise Margin (SNM) measures the distance between the read voltage 
 ## Development direction
 Design 8T SRAM using charge sharing technique
 ![Bitcell_8T_ChargeSharingTechnique](/FLOWCHART/Bitcell_8T_ChargeSharingTechnique.png)
+---
+***
